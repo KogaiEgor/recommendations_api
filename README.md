@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 HEAD
 # README
 
@@ -31,4 +31,4 @@ Test task
 =======
 # recommendations_api
 Test task
->>>>>>> origin/main
+
