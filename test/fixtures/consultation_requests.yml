@@ -1,0 +1,12 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  patient_id: 1
+  request_text: "Need consultation for a medical issue."
+
+two:
+  id: 2
+  patient_id: 2
+  request_text: "Looking for medical advice."
+

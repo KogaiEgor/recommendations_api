@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  consultation_request_id: 1
+  recommendation_text: "Visit our clinic for a checkup."
+
+two:
+  id: 2
+  consultation_request_id: 2
+  recommendation_text: "Take prescribed medications and rest."
+
+three:
+  id: 3
+  consultation_request_id: 1
+  recommendation_text: "Call a doctor"
+
+four:
+  id: 4
+  consultation_request_id: 1
+  recommendation_text: "jump from a roof"

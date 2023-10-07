@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  last_name: Smith
+  first_name: John
+  surname: Doe
+  phone: "123-456-7890"
+  email: john.doe@example.com
+  birthdate: 1990-01-01
+
+two:
+  id: 2
+  last_name: Johnson
+  first_name: Alice
+  surname: Smith
+  phone: "987-654-3210"
+  email: alice.smith@example.com
+  birthdate: 1985-05-15
