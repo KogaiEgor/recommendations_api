@@ -1,37 +1,28 @@
 
-# README
+# Онлайн рекомендации
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
-# recommendations_api
-Test task
+Создайте микросервис на Ruby, который будет предоставлять возможность пользователям (пациентам) отправлять запросы на консультацию с медицинскими специалистами и получать рекомендации на основе анализа их медицинских данных, полученных из внешнего API.
 
 =======
-# recommendations_api
-Test task
+# Endpoints
+- POST /consultation_requests - создание запроса на консультацию
+
+- POST /consultation_requests/:request_id/recommendations - создание рекомендации для конкретного запроса на консультацию
+
+- GET /patients/:patient_id/recommendations - получение списка рекомендаций для конкретного пациента
 
 =======
-# recommendations_api
-Test task
->>>>>>> 0018a61a2920c3b41c955ab68ca69a3bafc22f76
+# Database
+Postrgresql
+Модели:
+- Пациент (ФИО, дата рождения, номер телефона, email)
+
+- Запрос на консультацию (пациент, текст запроса, дата создания) 
+
+- Рекомендация (запрос на консультацию, текст рекомендации)
+  
+=======
+# Дополнения
+Использовал библиотеку dry-validation для валидации модели Patient
+Покрыл код юнитестами с помощью библиотек minitest и webmock
+Реализовал механиз отправки уведомлений на почту при получении рекомендации
