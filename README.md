@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HEAD
 HEAD
 # README
@@ -32,3 +33,7 @@ Test task
 # recommendations_api
 Test task
 
+=======
+# recommendations_api
+Test task
+>>>>>>> 0018a61a2920c3b41c955ab68ca69a3bafc22f76
